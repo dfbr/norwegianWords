@@ -2,8 +2,9 @@ name: Check links and images
 
 on:
   # Daily. The minute differs per repository so the checks do not all start together.
-  schedule:
-    - cron: "14 5 * * *"
+  # Schedule disabled; re-enable by uncommenting.
+  # schedule:
+  #   - cron: "14 5 * * *"
   workflow_dispatch:
 
 permissions:
